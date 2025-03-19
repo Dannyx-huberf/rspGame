@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 13px;
+}
+body{
+    font-family: Arial;
+    font-weight: bold;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/stock-vector-colorful-rock-paper-scissors-hand-game-vector-background-pattern-1633786861.jpg);
+}
+.main-container{
+    border-radius: 40px;
+    padding: 0px 0px;
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/1000_F_229844655_YO3OgHDZjl3qjPYfvRoXMBtLAkHCdp22.jpg);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.utility{
+    border: 1px solid red;
+}
+.main-container h1{
+    font-weight: bold;
+}
+.choices{
+    margin-bottom: 20px;
+    width: 70%;
+    padding: 20px 0px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.choices button{
+    background-color: rgb(131, 114, 88);
+    width: 50px;
+    height: 50Px;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#playerDisplay,#computerDisplay{
+    color: rgb(88, 71, 45);
+    font-size: 1.7rem;
+}
+#result{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.scoreDisplay{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+#playerScoreDisplay,#computerScoreDisplay{
+    font-size: 1.5rem;
+}
+.showGreen,#playerScoreDisplay{
+    color: green;
+ }
+ .showRed,#computerScoreDisplay{
+     color: red;
+ }
+@media (min-width:400px){
+    .main-container h1{
+        font-weight: bolder;
+        font-size: 2.5rem;
+    }
+    .choices button{
+        width: 80px;
+        height: 80Px;
+        text-align: center;
+        font-size: 3rem;
+        border-radius: 50%;
+        border: none;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    .choices{
+        margin-bottom: 20px;
+        width: 70%;
+        padding: 20px 10px;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #result{
+        font-size: 2.3rem;
+        font-weight: bold;
+    }
+    #playerDisplay,#computerDisplay{
+        font-size: 2rem;
+    }
+    .scoreDisplay{
+        margin-top: 10px;
+        font-size: 2rem;
+    }
+    #playerScoreDisplay{
+        font-size: 2rem;
+     }
+     #computerScoreDisplay{
+         font-size: 2rem;
+     }
+}
+@media (min-width:550px){
+    .choices button{
+        width: 100px;
+        height: 100Px;
+        text-align: center;
+        font-size: 4rem;
+        border-radius: 50%;
+        border: none;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    .choices{
+        margin-bottom: 20px;
+        width: 70%;
+        padding: 20px 10px;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #playerDisplay,#computerDisplay{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .scoreDisplay{
+        margin-top: 10px;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    #playerScoreDisplay{
+       font-size: 3rem;
+    }
+    #computerScoreDisplay{
+        font-size: 3rem;
+    }
+}
+@media (min-width:700px){
+    .main-container h1{
+        font-weight: bolder;
+        font-size: 3.5rem;
+    }
+    .choices button{
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        font-size: 5.5rem;
+        border-radius: 50%;
+        border: none;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    .choices{
+        margin-bottom: 20px;
+        width: 70%;
+        padding: 20px 10px;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #playerDisplay,#computerDisplay{
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+    .scoreDisplay{
+        margin-top: 10px;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    #playerScoreDisplay{
+       font-size: 3.5rem;
+    }
+    #computerScoreDisplay{
+        font-size: 3.5rem;
+    }
+}
+@media (min-width:1000px){
+    .main-container{
+        width: 90%;
+       height: auto;
+    }
+    .main-container h1{
+        font-weight: bolder;
+        font-size: 4rem;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .choices button{
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        font-size: 7rem;
+        border-radius: 50%;
+        border: none;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    .choices{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        width: 70%;
+        padding: 20px 10px;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #playerDisplay,#computerDisplay{
+        font-size: 3rem;
+        margin-bottom: 0px;
+    }
+    #result{
+        font-size: 1..8rem;
+        font-weight: bold;
+    }
+    .scoreDisplay{
+        margin-top: 10px;
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 0;
+    }
+    #playerScoreDisplay{
+       font-size: 3rem;
+    }
+    #computerScoreDisplay{
+        font-size: 3rem;
+    }
+}
